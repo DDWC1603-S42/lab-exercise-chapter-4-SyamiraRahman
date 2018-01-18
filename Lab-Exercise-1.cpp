@@ -1,3 +1,5 @@
+//NURUL SYAMIRA BINTI ABDUL RAHMAN
+//A17DW3145
 //Find the sum of digits of a given number
 
 #include <iostream>
@@ -12,14 +14,18 @@ int main()
 	cout<<"------------------------------"<<endl;
 
 	cout<<"Input number: "<<endl;
+	cin>> no1 >> no2;
 
 
+	sum = no1+no2 ;
+	cout<< "The sum of the digit is :"<<sum<<endl;
+	
 	while(no2>0)
 	{
 	r=no1%10;
 	no1=no1/10;
-	sum=sum+x;
-
+	sum=sum+r;
+	
 	}
-	//print the sum of the digits here.
 }
+	return 0;
