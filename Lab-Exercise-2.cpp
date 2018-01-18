@@ -1,3 +1,5 @@
+//NURUL SYAMIRA BINTI ABDUL RAHMAN
+//A17DW3145
 //Check whether a number is prime or not
 //finish up this program, properly, and nicely.
 
@@ -11,23 +13,32 @@ int main()
 	cout<<"The perfect numbers between 1 to 500 are: "<<endl;
 
 	while(i<=500)
+	{
+	
 
 		while(u<=500)
+		{
+		
 
 			if(u<i)
+			{
+			
 
 				if(i%u=)
+				{
 					sum=sum+u;
-
+				}
+			}
 	u++
 
 		if(sum=i)
-			
-			cout<<i<<" "<<endl;
-
+		{
+			cout<<i<<"  "<<endl;
+		}
+		}
 	i++
 		u=1;
 		sum=0;
-
-
+    }
+	return 0;
 }
